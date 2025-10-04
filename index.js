@@ -1,3 +1,4 @@
+
 // import de las cuatro dependencias de node que he usado
 import axios from "axios";
 import gradient from "gradient-string";
@@ -25,8 +26,8 @@ async function obtenerGato() {
             `;
         console.log(caja);
 
-        // incorporo un snipper el cual inicio y le hago esperar 2000 milisegundos para que se aprecie
-        // se abre la url en una ventana del navegador y se detiene el snipper mostrando un mensaje
+        // incorporo un spinner el cual inicio y le hago esperar 2000 milisegundos para que se aprecie
+        // se abre la url en una ventana del navegador y se detiene el spinner mostrando un mensaje
         const spinner = ora('Abriendo tu navegador...').start();
         await new Promise(resolve => setTimeout(resolve, 2000)); 
         await open(gato.url); 
