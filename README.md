@@ -47,7 +47,6 @@ El programa obtiene una imagen aleatoria de un gato y la abre automáticamente e
 ✔ ¡Imagen abierta!
 ```
 ------
-## Autora
 Proyecto realizado por Julia N.G. como práctica de Node.js ✨
 
 
